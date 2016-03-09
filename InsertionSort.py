@@ -1,7 +1,6 @@
 def insertionSort(userlist):
     lastnumber = userlist[usersize - 1]
     print 'last number is:', lastnumber
-#    print ' '.join(map(str, userlist))
      
     for n in xrange(usersize - 2, -1, -1) : 
         
